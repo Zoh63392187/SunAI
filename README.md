@@ -103,8 +103,14 @@ and `manifest.sig`.
 
 ## Terms
 
-SunAI is provided as is, without warranty. You use it at your own risk; check that the settings suit your installation.
-The source code is not public.
+SunAI is a free hobby project by a private person, provided as is, without warranty. You use it at your own risk; check
+that the settings suit your installation. The source code is not public.
+
+Before first use, SunAI asks you to accept:
+
+- **[Licence terms](TERMS.md)** ([dansk](TERMS.da.md))
+- **[Privacy policy](PRIVACY.md)** ([dansk](PRIVACY.da.md)) – what happens with your Growatt API key and data, and your
+  rights under GDPR.
 
 ---
 
