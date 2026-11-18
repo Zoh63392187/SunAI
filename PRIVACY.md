@@ -1,6 +1,6 @@
 # SunAI privacy policy
 
-Version 2026-11-18
+Version 2026-11-18.2
 
 This policy explains what personal data SunAI handles, why, and what your rights are under the EU General Data
 Protection Regulation (GDPR) and the Danish Data Protection Act.
@@ -39,6 +39,7 @@ on the developer's server, located in Denmark:
 | Licence key, holder name, PC id and hardware fingerprint (hashed), IP address, app version, last seen | To check the licence, prevent misuse and keep the service secure | While the licence exists |
 | Your Growatt API key (encrypted) | To read and control your inverter around the clock | Deleted at once when you switch back to "this PC" |
 | Inverter serial number, plant, settings, plans, energy history, push address (encrypted) | To plan and control your battery and send you push messages | Deleted 30 days after you switch back |
+| iPhones you connect to the SunAI app: the name the iPhone gives itself, when it was connected and last used, its IP address (the iPhone's key is stored only as a fingerprint) | To show your battery only on your own iPhones and keep the service secure | Until you disconnect the iPhone or the licence is deleted |
 | Error reports you choose to send | To fix errors | 12 months |
 | Server log (time, licence holder, PC id, inverter serial, IP address, what happened) | Security and fixing errors | 90 days |
 
