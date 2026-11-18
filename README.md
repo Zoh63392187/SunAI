@@ -1,5 +1,10 @@
 # SunAI
 
+[![Latest version](https://img.shields.io/github/v/release/Zoh63392187/SunAI?label=latest%20version)](https://github.com/Zoh63392187/SunAI/releases/latest)
+[![Released](https://img.shields.io/github/release-date/Zoh63392187/SunAI?label=released)](https://github.com/Zoh63392187/SunAI/releases/latest)
+![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)-0078D4)
+![Vendor](https://img.shields.io/badge/inverter-Growatt-2E7D32)
+
 **Smart, simple control of a Growatt hybrid inverter with battery – for Windows 11.**
 
 SunAI replaces the many menus of the inverter's own app with big, clear buttons, a visual 24-hour schedule and an
@@ -10,6 +15,35 @@ automatic planner that charges and uses your battery when electricity is cheap o
 > and you can always roll back or choose a safe default.
 
 **[⬇ Download the newest version](https://github.com/Zoh63392187/SunAI/releases/latest)** – the file is `SunAI.exe`.
+
+---
+
+## At a glance
+
+| | |
+|---|---|
+| **Inverter vendor** | Growatt only (through Growatt's official Open API) |
+| **Fully supported** | Growatt **SPH / MIX** hybrid inverters with battery – read and control |
+| **Schedules supported** | Growatt **MIN / TLX** – read and time-period schedules |
+| **Read only** | Other Growatt types (Inverter, Storage, MAX, SPA, PCS, HPS, PBD) – live values, no control |
+| **Inverters per PC** | Up to **10**, all controlled at the same time or one at a time (your choice) |
+| **Inverters per server licence** | **1** as standard; licences for more (up to 50) on request |
+| **PCs per licence** | 2 as standard |
+| **Growatt servers** | Europe (default), USA, China, Australia |
+| **Electricity prices** | Nord Pool day-ahead (Denmark DK1/DK2) and Danish grid tariffs |
+| **Languages** | English (default) and Danish |
+| **Runs on** | Windows 10 or 11, 64-bit – one file, nothing else to install |
+| **Latest version** | See the badge above or [Releases](https://github.com/Zoh63392187/SunAI/releases/latest) |
+
+## Version history
+
+| Version | Date | What's new |
+|---|---|---|
+| [0.19.0](https://github.com/Zoh63392187/SunAI/releases/tag/v0.19.0) | 2026-11-18 | Several inverters: add more inverters in Settings, switch at the top left, and let the server control several per licence |
+| [0.18.1](https://github.com/Zoh63392187/SunAI/releases/tag/v0.18.1) | 2026-11-18 | Built-in server keys and one-click server install, separate signing key for updates |
+| [0.18.0](https://github.com/Zoh63392187/SunAI/releases/tag/v0.18.0) | 2026-11-18 | Server mode with licence (the SunAI server controls the battery 24/7), signed updates from GitHub, new Server and updates page |
+
+All versions: [Releases](https://github.com/Zoh63392187/SunAI/releases).
 
 ---
 
@@ -51,7 +85,8 @@ SunAI looks for new versions here on GitHub (at start and every 6 hours; can be 
 appears at the top: click **Update**. The app downloads the new version, **checks that it is signed by SunAI**, replaces
 itself and restarts. A file that does not match the signature is deleted and never run.
 
-Every release contains `SunAI.exe`, `manifest.json` (version, SHA-256 and size) and `manifest.sig` (the signature).
+Every release contains `SunAI.exe`, `manifest.json` (version, SHA-256 and size) and the signatures `manifest.release.sig`
+and `manifest.sig`.
 
 ## Security
 
@@ -82,6 +117,9 @@ tidslinje, og en automatisk planlægger, der lader og bruger batteriet efter elp
 - **Hent:** [nyeste version](https://github.com/Zoh63392187/SunAI/releases/latest) → `SunAI.exe`. Viser Windows "Windows har
   beskyttet din PC", så klik **Flere oplysninger → Kør alligevel**.
 - **Opdateringer:** en blå bjælke øverst i appen → **Opdatér**. Appen tjekker, at filen er signeret af SunAI, før den skifter.
+- **Understøtter:** kun Growatt. SPH/MIX styres fuldt, MIN/TLX får tidsplaner, andre typer kan kun læses.
+- **Antal invertere:** op til 10 pr. PC; med server-licens 1 som standard (flere efter aftale, op til 50).
+- **Version:** se mærket øverst eller [Releases](https://github.com/Zoh63392187/SunAI/releases).
 - Vælg dansk under **Settings → Language → Dansk**.
 
 SunAI er et uafhængigt program og er hverken udviklet af, godkendt af eller tilknyttet Growatt.
