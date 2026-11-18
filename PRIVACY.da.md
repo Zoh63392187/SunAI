@@ -1,6 +1,6 @@
 # SunAI privatlivspolitik
 
-Version 2026-11-18
+Version 2026-11-18.2
 
 Denne politik forklarer, hvilke personoplysninger SunAI behandler, hvorfor, og hvilke rettigheder du har efter EU's
 databeskyttelsesforordning (GDPR) og den danske databeskyttelseslov.
@@ -41,6 +41,7 @@ server, som står i Danmark:
 | Licensnøgle, indehavers navn, PC-id og hardware-fingeraftryk (hashet), IP-adresse, app-version, sidst set | For at tjekke licensen, forhindre misbrug og holde tjenesten sikker | Så længe licensen findes |
 | Din Growatt API-nøgle (krypteret) | For at læse og styre din inverter døgnet rundt | Slettes straks, når du skifter tilbage til "denne PC" |
 | Inverterens serienummer, anlæg, indstillinger, planer, energihistorik, push-adresse (krypteret) | For at planlægge og styre dit batteri og sende dig push-beskeder | Slettes 30 dage efter, at du skifter tilbage |
+| iPhones, du forbinder til SunAI-appen: det navn, iPhonen giver sig selv, hvornår den blev forbundet og sidst brugt, dens IP-adresse (iPhonens nøgle gemmes kun som fingeraftryk) | For kun at vise dit batteri på dine egne iPhones og holde tjenesten sikker | Indtil du afbryder iPhonen, eller licensen slettes |
 | Fejlrapporter, du selv vælger at sende | For at rette fejl | 12 måneder |
 | Serverlog (tid, licensindehaver, PC-id, inverterens serienummer, IP-adresse, hvad der skete) | Sikkerhed og fejlretning | 90 dage |
 
