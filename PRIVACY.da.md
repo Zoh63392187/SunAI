@@ -1,6 +1,6 @@
 # SunAI privatlivspolitik
 
-Version 2026-11-19.1
+Version 2026-11-19.2
 
 Denne politik forklarer, hvilke personoplysninger SunAI behandler, hvorfor, og hvilke rettigheder du har efter EU's
 databeskyttelsesforordning (GDPR) og den danske databeskyttelseslov.
@@ -27,7 +27,7 @@ SunAI kontakter disse tjenester direkte fra din PC:
   Growatt er selv ansvarlig for sin behandling efter sin egen privatlivspolitik.
 - **Energi Data Service** (Energinet) – elpriser og tariffer. Der sendes ingen personoplysninger.
 - **Open-Meteo** – solprognosen. Kun koordinaterne for den by, du vælger, sendes – ikke din adresse.
-- **Eloverblik** (Energinet DataHub) – kun hvis du indsætter et Eloverblik-token under Indstillinger: din elmålers aflæsninger (købte og solgte kWh, måler-id og adresse) hentes til din PC. De bliver på din PC, sendes aldrig til SunAI-serveren og slettes, når du afbryder måleren. Tokenet krypteres med Windows (DPAPI).
+- **Eloverblik** (Energinet DataHub) – kun hvis du indsætter et Eloverblik-token under Indstillinger: din elmålers aflæsninger (købte og solgte kWh, måler-id og adresse) hentes til din PC. På din PC slettes de, når du afbryder måleren, og tokenet krypteres med Windows (DPAPI). I server-tilstand henter SunAI-serveren dem i stedet (se afsnit 3).
 - **ntfy** – kun hvis du indtaster en push-adresse: de push-beskeder, du vælger, sendes til den ntfy-server.
 - **GitHub** – for at søge efter og hente opdateringer (kan slås fra). GitHub ser din IP-adresse.
 - **SunAI-serveren** – kun hvis du indtaster en licensnøgle (se afsnit 3).
@@ -41,6 +41,7 @@ server, som står i Danmark:
 |---|---|---|
 | Licensnøgle, indehavers navn, PC-id og hardware-fingeraftryk (hashet), IP-adresse, app-version, sidst set | For at tjekke licensen, forhindre misbrug og holde tjenesten sikker | Så længe licensen findes |
 | Din Growatt API-nøgle (krypteret) | For at læse og styre din inverter døgnet rundt | Slettes straks, når du skifter tilbage til "denne PC" |
+| Dit Eloverblik-token (krypteret) og din elmålers aflæsninger (købte og solgte kWh, måler-id og adresse) - kun hvis du forbinder din måler | For at vise, hvad du har købt fra og solgt til nettet, også når din PC er slukket | Slettes straks, når du afbryder måleren eller skifter tilbage til "denne PC" |
 | Inverterens serienummer, anlæg, indstillinger, planer, energihistorik, push-adresse (krypteret) | For at planlægge og styre dit batteri og sende dig push-beskeder | Slettes 30 dage efter, at du skifter tilbage |
 | iPhones, du forbinder til SunAI-appen: det navn, iPhonen giver sig selv, hvornår den blev forbundet og sidst brugt, dens IP-adresse (iPhonens nøgle gemmes kun som fingeraftryk) | For kun at vise dit batteri på dine egne iPhones og holde tjenesten sikker | Indtil du afbryder iPhonen, eller licensen slettes |
 | Fejlrapporter, du selv vælger at sende | For at rette fejl | 12 måneder |
