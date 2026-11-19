@@ -1,6 +1,6 @@
 # SunAI licensvilkår
 
-Version 2026-11-19.1
+Version 2026-11-19.2
 
 Disse vilkår gælder mellem dig (brugeren) og Thomas Condé Hansen, Danmark, som laver SunAI som privatperson (kaldet
 "udvikleren" nedenfor). Når du klikker "Jeg accepterer" i SunAI, accepterer du vilkårene og bekræfter, at du har læst
