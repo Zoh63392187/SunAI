@@ -1,6 +1,6 @@
 # SunAI licence terms
 
-Version 2026-11-19.1
+Version 2026-11-19.2
 
 These terms apply between you (the user) and Thomas Condé Hansen, Denmark, who makes SunAI as a private person
 (called "the developer" below). By clicking "I accept" in SunAI you agree to these terms and confirm that you have read
