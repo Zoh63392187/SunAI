@@ -1,6 +1,6 @@
 # SunAI privacy policy
 
-Version 2026-11-19.1
+Version 2026-11-19.2
 
 This policy explains what personal data SunAI handles, why, and what your rights are under the EU General Data
 Protection Regulation (GDPR) and the Danish Data Protection Act.
@@ -25,7 +25,7 @@ SunAI contacts these services directly from your PC:
   is responsible for its own processing under its own privacy policy.
 - **Energi Data Service** (Energinet) – electricity prices and tariffs. No personal data is sent.
 - **Open-Meteo** – the solar forecast. Only the coordinates of the town you choose are sent, not your address.
-- **Eloverblik** (Energinet DataHub) – only if you paste an Eloverblik token under Settings: your electricity meter's readings (bought and sold kWh, meter id and address) are fetched to your PC. They stay on your PC, are never sent to the SunAI server, and are deleted when you disconnect the meter. The token is encrypted with Windows (DPAPI).
+- **Eloverblik** (Energinet DataHub) – only if you paste an Eloverblik token under Settings: your electricity meter's readings (bought and sold kWh, meter id and address) are fetched to your PC. On your PC they are deleted when you disconnect the meter, and the token is encrypted with Windows (DPAPI). In server mode the SunAI server fetches them instead (see section 3).
 - **ntfy** – only if you enter a push address: the push messages you choose are sent to that ntfy server.
 - **GitHub** – to check for and download updates (can be turned off). GitHub sees your IP address.
 - **The SunAI server** – only if you enter a licence key (see section 3).
@@ -39,6 +39,7 @@ on the developer's server, located in Denmark:
 |---|---|---|
 | Licence key, holder name, PC id and hardware fingerprint (hashed), IP address, app version, last seen | To check the licence, prevent misuse and keep the service secure | While the licence exists |
 | Your Growatt API key (encrypted) | To read and control your inverter around the clock | Deleted at once when you switch back to "this PC" |
+| Your Eloverblik token (encrypted) and your electricity meter's readings (bought and sold kWh, meter id and address) - only if you connect your meter | To show what you bought from and sold to the grid, also when your PC is off | Deleted at once when you disconnect the meter or switch back to "this PC" |
 | Inverter serial number, plant, settings, plans, energy history, push address (encrypted) | To plan and control your battery and send you push messages | Deleted 30 days after you switch back |
 | iPhones you connect to the SunAI app: the name the iPhone gives itself, when it was connected and last used, its IP address (the iPhone's key is stored only as a fingerprint) | To show your battery only on your own iPhones and keep the service secure | Until you disconnect the iPhone or the licence is deleted |
 | Error reports you choose to send | To fix errors | 12 months |
