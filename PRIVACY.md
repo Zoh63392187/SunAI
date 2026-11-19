@@ -1,6 +1,6 @@
 # SunAI privacy policy
 
-Version 2026-11-18.2
+Version 2026-11-19.1
 
 This policy explains what personal data SunAI handles, why, and what your rights are under the EU General Data
 Protection Regulation (GDPR) and the Danish Data Protection Act.
@@ -25,6 +25,7 @@ SunAI contacts these services directly from your PC:
   is responsible for its own processing under its own privacy policy.
 - **Energi Data Service** (Energinet) – electricity prices and tariffs. No personal data is sent.
 - **Open-Meteo** – the solar forecast. Only the coordinates of the town you choose are sent, not your address.
+- **Eloverblik** (Energinet DataHub) – only if you paste an Eloverblik token under Settings: your electricity meter's readings (bought and sold kWh, meter id and address) are fetched to your PC. They stay on your PC, are never sent to the SunAI server, and are deleted when you disconnect the meter. The token is encrypted with Windows (DPAPI).
 - **ntfy** – only if you enter a push address: the push messages you choose are sent to that ntfy server.
 - **GitHub** – to check for and download updates (can be turned off). GitHub sees your IP address.
 - **The SunAI server** – only if you enter a licence key (see section 3).
