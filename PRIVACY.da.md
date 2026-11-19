@@ -1,6 +1,6 @@
 # SunAI privatlivspolitik
 
-Version 2026-11-18.2
+Version 2026-11-19.1
 
 Denne politik forklarer, hvilke personoplysninger SunAI behandler, hvorfor, og hvilke rettigheder du har efter EU's
 databeskyttelsesforordning (GDPR) og den danske databeskyttelseslov.
@@ -27,6 +27,7 @@ SunAI kontakter disse tjenester direkte fra din PC:
   Growatt er selv ansvarlig for sin behandling efter sin egen privatlivspolitik.
 - **Energi Data Service** (Energinet) – elpriser og tariffer. Der sendes ingen personoplysninger.
 - **Open-Meteo** – solprognosen. Kun koordinaterne for den by, du vælger, sendes – ikke din adresse.
+- **Eloverblik** (Energinet DataHub) – kun hvis du indsætter et Eloverblik-token under Indstillinger: din elmålers aflæsninger (købte og solgte kWh, måler-id og adresse) hentes til din PC. De bliver på din PC, sendes aldrig til SunAI-serveren og slettes, når du afbryder måleren. Tokenet krypteres med Windows (DPAPI).
 - **ntfy** – kun hvis du indtaster en push-adresse: de push-beskeder, du vælger, sendes til den ntfy-server.
 - **GitHub** – for at søge efter og hente opdateringer (kan slås fra). GitHub ser din IP-adresse.
 - **SunAI-serveren** – kun hvis du indtaster en licensnøgle (se afsnit 3).
